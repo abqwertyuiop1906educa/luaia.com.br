@@ -1,0 +1,59 @@
+# === Git Ignore para luaia.com.br ===
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# .env e secrets
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+.next/
+.nuxt/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Lockfiles
+$LOCKFILE
+*.lock
+
+# Cache
+.cache/
+*.cache
+
+# Temp
+tmp/
+temp/
+*.tmp
+
+# Large binary files
+model-tester
+*.bin
+*.exe
+
+# Cerebro local (dados sensíveis)
+.cerebro/
+Cerebro_Lua/
+
+# OpenCode config (local only)
+.opencode/
+
+# Resultados de teste (gerados)
+model-test-results.json

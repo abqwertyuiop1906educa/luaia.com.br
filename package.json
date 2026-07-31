@@ -1,0 +1,14 @@
+{
+  "name": "luaia-com-br",
+  "version": "1.0.0",
+  "description": "Dashboard e backend para luaia.com.br",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "dashboard": "cd dashboard && npm run dev",
+    "build": "cd dashboard && npm run build"
+  },
+  "keywords": ["luaia", "dashboard", "casa-da-lua"],
+  "author": "Casa da Lua",
+  "license": "MIT"
+}

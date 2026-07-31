@@ -1,0 +1,13 @@
+[Unit]
+Description=OpenCode Web Service
+After=network.target
+
+[Service]
+Type=simple
+User=lua
+WorkingDirectory=/home/lua/projetos/luaia.com.br
+ExecStart=/usr/bin/node index.mjs
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
